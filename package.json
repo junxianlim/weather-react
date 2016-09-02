@@ -6,6 +6,7 @@
   "scripts": {
     "start": "node index"
   },
+  "repository": "git@gitlab.com:junxianlim/weather-react.git",
   "author": "lim jun xian",
   "license": "ISC",
   "devDependencies": {
@@ -24,15 +25,16 @@
     "webpack-hot-middleware": "^2.12.2"
   },
   "dependencies": {
+    "axios": "^0.14.0",
     "css-loader": "^0.24.0",
     "lodash": "^4.15.0",
     "react": "^15.3.1",
     "react-dom": "^15.3.1",
     "react-redux": "^4.4.5",
     "redux": "^3.5.2",
+    "redux-promise": "^0.5.3",
     "style-loader": "^0.13.1",
     "stylus": "^0.54.5",
-    "stylus-loader": "^2.3.1",
-    "youtube-api-search": "0.0.5"
-}
+    "stylus-loader": "^2.3.1"
+  }
 }
