@@ -2,7 +2,6 @@ import React from 'react';
 import { GoogleMapLoader, GoogleMap, Marker } from 'react-google-maps';
 
 function CityMap({lon, lat, marker}) {
-  console.log(marker)
   return (
     <GoogleMapLoader
       containerElement={ <div className="map" /> }
